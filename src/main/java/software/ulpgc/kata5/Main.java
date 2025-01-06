@@ -1,0 +1,17 @@
+package software.ulpgc.kata5;
+
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        JokeLoader loader = getJokeLoader();
+        for (int i = 0; i < 4; i++) {
+            System.out.println("----- JOKE " + i + " -----");
+            System.out.println(loader.load().joke());
+        }
+    }
+
+    private static JokeLoader getJokeLoader() {
+        return new JokeLoader(new RandomJokeReader(), new RandomJokeDeserializer(), new RandomJokeAdapter());
+    }
+}
