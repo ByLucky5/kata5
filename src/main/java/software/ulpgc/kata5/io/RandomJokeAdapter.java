@@ -1,4 +1,7 @@
-package software.ulpgc.kata5;
+package software.ulpgc.kata5.io;
+
+import software.ulpgc.kata5.io.pojo.RandomJokeGetResponse;
+import software.ulpgc.kata5.model.Joke;
 
 public class RandomJokeAdapter implements JokeAdapter {
     @Override

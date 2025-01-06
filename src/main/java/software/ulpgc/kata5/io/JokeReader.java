@@ -1,4 +1,4 @@
-package software.ulpgc.kata5;
+package software.ulpgc.kata5.io;
 
 import java.io.IOException;
 

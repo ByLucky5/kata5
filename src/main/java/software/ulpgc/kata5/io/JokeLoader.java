@@ -1,4 +1,6 @@
-package software.ulpgc.kata5;
+package software.ulpgc.kata5.io;
+
+import software.ulpgc.kata5.model.Joke;
 
 import java.io.IOException;
 

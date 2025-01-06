@@ -1,5 +1,10 @@
 package software.ulpgc.kata5;
 
+import software.ulpgc.kata5.io.JokeLoader;
+import software.ulpgc.kata5.io.RandomJokeAdapter;
+import software.ulpgc.kata5.io.RandomJokeDeserializer;
+import software.ulpgc.kata5.io.RandomJokeReader;
+
 import java.io.IOException;
 
 public class Main {

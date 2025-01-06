@@ -1,6 +1,7 @@
-package software.ulpgc.kata5;
+package software.ulpgc.kata5.io;
 
 import com.google.gson.Gson;
+import software.ulpgc.kata5.io.pojo.RandomJokeGetResponse;
 
 public class RandomJokeDeserializer implements JokeDeserializer {
     @Override
